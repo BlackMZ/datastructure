@@ -1,0 +1,30 @@
+
+Ssquid:S2589"7Remove this expression which always evaluates to "true"(¿Í˜Ûúÿÿÿÿ
+jsquid:S00101["MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(é±òÓùÿÿÿÿ
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÒ•èÿÿÿÿÿ
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÕ˜¢
+ksquid:S00100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûùŒøÿÿÿÿ
+fsquid:S00100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃõºË
+ksquid:S001001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÉÚşÿÿÿÿ
+fsquid:S001009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë‡€
+T
+squid:S106="9Replace this use of System.out or System.err by a logger.(ÿ­Ñƒüÿÿÿÿ
+fsquid:S00100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥äƒå
+T
+squid:S106H"9Replace this use of System.out or System.err by a logger.( ª¥‚ûÿÿÿÿ
+fsquid:S00100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æéÉƒ
+hsquid:S3457S"Q%n should be used in place of \n to produce the platform-specific line separator.(““ªÒ
+<squid:S3457S"%String contains no format specifiers.(““ªÒ
+O
+squid:S106S"9Replace this use of System.out or System.err by a logger.(““ªÒ
+T
+squid:S106c"9Replace this use of System.out or System.err by a logger.(â…Ûİşÿÿÿÿ
+T
+squid:S106d"9Replace this use of System.out or System.err by a logger.(‡¯§úÿÿÿÿÿ
+O
+squid:S106v"9Replace this use of System.out or System.err by a logger.(±Ä­²
+msquid:S3457{"Q%n should be used in place of \n to produce the platform-specific line separator.(èêéçúÿÿÿÿ
+T
+squid:S106{"9Replace this use of System.out or System.err by a logger.(èêéçúÿÿÿÿ
+T
+squid:S106~"9Replace this use of System.out or System.err by a logger.(·¸êşÿÿÿÿ

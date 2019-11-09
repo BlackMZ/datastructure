@@ -1,0 +1,67 @@
+
+=squid:S1659Ï" Declare "p2" on a separate line.(ªİñÿÿÿÿÿ
+u
+squid:S135—"YReduce the total number of break and continue statements in this loop to use at most one.(Î‹ôĞşÿÿÿÿ
+bsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(ò˜úˆ
+hsquid:CommentedOutCodeLineç"<This block of commented-out lines of code should be removed.(¬Àì‰şÿÿÿÿ
+hsquid:CommentedOutCodeLine³"<This block of commented-out lines of code should be removed.(¼ÆğÊøÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õãÖÂşÿÿÿÿ
+csquid:CommentedOutCodeLineî"<This block of commented-out lines of code should be removed.(Ší–û
+U
+squid:S106í"9Replace this use of System.out or System.err by a logger.(ÜÄÌ¹ÿÿÿÿÿ
+csquid:CommentedOutCodeLine»"<This block of commented-out lines of code should be removed.(§ŞÄ÷
+<squid:S1659ú"Declare "k" on a separate line.(©‡»òûÿÿÿÿ
+gsquid:CommentedOutCodeLiner"<This block of commented-out lines of code should be removed.(ÛõÈ‰úÿÿÿÿ
+gsquid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(ÊıÉûÿÿÿÿ
+csquid:CommentedOutCodeLine±"<This block of commented-out lines of code should be removed.(çÒ¿÷
+<squid:S1659Ï"Declare "k" on a separate line.(ªİñÿÿÿÿÿ
+csquid:CommentedOutCodeLineŠ"<This block of commented-out lines of code should be removed.(ÌùØ
+<squid:S1659Ê"Declare "j" on a separate line.(»¼ûîûÿÿÿÿ
+_squid:S2184á"BCast one of the operands of this addition operation to a "double".(¼©Â¿ùÿÿÿÿ
+=squid:S1659ú" Declare "p2" on a separate line.(©‡»òûÿÿÿÿ
+csquid:CommentedOutCodeLine÷"<This block of commented-out lines of code should be removed.(œ”å¹
+asquid:CommentedOutCodeLinez"<This block of commented-out lines of code should be removed.(ş¥‘
+csquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ôøß
+csquid:CommentedOutCodeLineÍ"<This block of commented-out lines of code should be removed.(áƒúÛ
+hsquid:CommentedOutCodeLineÚ"<This block of commented-out lines of code should be removed.(ÛõÈ‰úÿÿÿÿ
+csquid:CommentedOutCodeLine‡"<This block of commented-out lines of code should be removed.(§ŞÄ÷
+csquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(Ø›†à
+asquid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(â„€z
+vsquid:S3012Ú"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Àé·ûÿÿÿÿ
+csquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(ã¶üÔ
+hsquid:CommentedOutCodeLineÓ"<This block of commented-out lines of code should be removed.(àŞå›şÿÿÿÿ
+hsquid:CommentedOutCodeLineÄ"<This block of commented-out lines of code should be removed.(ÖƒÈÓûÿÿÿÿ
+csquid:CommentedOutCodeLineÀ"<This block of commented-out lines of code should be removed.(ğ¡ˆ
+bsquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(ıØŞŒ
+P
+squid:S106ê"9Replace this use of System.out or System.err by a logger.(‡…­¤
+bsquid:CommentedOutCodeLineU"<This block of commented-out lines of code should be removed.(¡¶
+O
+squid:S106ö"9Replace this use of System.out or System.err by a logger.(³¾×n
+O
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(ÍºÓM
+csquid:CommentedOutCodeLineó"<This block of commented-out lines of code should be removed.(§ŞÄ÷
+hsquid:CommentedOutCodeLineº"<This block of commented-out lines of code should be removed.(À‹ö’ûÿÿÿÿ
+P
+squid:S106®"9Replace this use of System.out or System.err by a logger.(ß£ûÚ
+csquid:CommentedOutCodeLineµ"<This block of commented-out lines of code should be removed.(¦Î¶
+hsquid:CommentedOutCodeLine½"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+hsquid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(—‹¢ºşÿÿÿÿ
+csquid:CommentedOutCodeLine¢"<This block of commented-out lines of code should be removed.(§ŞÄ÷
+csquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(êØ§à
+O
+squid:S106Ü"9Replace this use of System.out or System.err by a logger.(ÊùĞd
+O
+squid:S106æ"9Replace this use of System.out or System.err by a logger.(ÊùĞd
+hsquid:CommentedOutCodeLineÖ"<This block of commented-out lines of code should be removed.(»ÆëËıÿÿÿÿ
+gsquid:CommentedOutCodeLineM"<This block of commented-out lines of code should be removed.(û„˜Åıÿÿÿÿ
+bsquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(ö·À¹
+@squid:S1481Ú"(Remove this unused "sum" local variable.(úŒ§¨
+bsquid:CommentedOutCodeLinel"<This block of commented-out lines of code should be removed.(€ÌŒÜ
+U
+squid:S106ô"9Replace this use of System.out or System.err by a logger.(¶êˆ˜şÿÿÿÿ
+Vsquid:S1155é">Use isEmpty() to check whether the collection is empty or not.(¾ì§ß
+Msquid:S1143î"5Remove this return statement from this finally block.(›…Ú
+>squid:S1481ä"&Remove this unused "i" local variable.(»ŸÜš
+gsquid:CommentedOutCodeLine@"<This block of commented-out lines of code should be removed.(¦‚›•ÿÿÿÿÿ
+vsquid:S3012Š"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(–ô†½ûÿÿÿÿ

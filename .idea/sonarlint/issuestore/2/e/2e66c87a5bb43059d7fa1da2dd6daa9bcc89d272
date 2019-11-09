@@ -1,0 +1,54 @@
+
+t
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(«ıøÿÿÿÿ
+esquid:S00101p"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŒŸÃ
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÆœÃ
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¡è­
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÀ®“ÿÿÿÿÿ
+isquid:S001173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷µ†©
+nsquid:S00117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÔóŠÿÿÿÿÿ
+isquid:S00117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ÿ
+nsquid:S00117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã”¬Æüÿÿÿÿ
+isquid:S00117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰¢¢¥
+nsquid:S00117s"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ»œÔıÿÿÿÿ
+psquid:S00116"SRename this field "ListData" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èö¸¥şÿÿÿÿ
+jsquid:S00116"RRename this field "ListLen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÎÈã
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÆœÃ
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¡è­
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÀ®“ÿÿÿÿÿ
+O
+squid:S106""9Replace this use of System.out or System.err by a logger.(Ã¼ı‘
+O
+squid:S106'"9Replace this use of System.out or System.err by a logger.(êäÄß
+fsquid:S001003"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷µ†©
+T
+squid:S1067"9Replace this use of System.out or System.err by a logger.(òœÂÿşÿÿÿÿ
+ksquid:S00100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÔóŠÿÿÿÿÿ
+T
+squid:S106C"9Replace this use of System.out or System.err by a logger.(¾•®üÿÿÿÿ
+fsquid:S00100N"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ÿ
+T
+squid:S106R"9Replace this use of System.out or System.err by a logger.(Í»Ÿ–üÿÿÿÿ
+ksquid:S00100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã”¬Æüÿÿÿÿ
+fsquid:S00100e"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰¢¢¥
+msquid:S3457j"Q%n should be used in place of \n to produce the platform-specific line separator.(Ë£ƒ‚ıÿÿÿÿ
+T
+squid:S106j"9Replace this use of System.out or System.err by a logger.(Ë£ƒ‚ıÿÿÿÿ
+T
+squid:S106x"9Replace this use of System.out or System.err by a logger.(ÎŸÍ’ùÿÿÿÿ
+N
+squid:S106{"9Replace this use of System.out or System.err by a logger.(ú˜«j
+P
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥ò Æ
+U
+squid:S106“"9Replace this use of System.out or System.err by a logger.(ÿğŒùûÿÿÿÿ
+U
+squid:S106—"9Replace this use of System.out or System.err by a logger.(Í¬àêûÿÿÿÿ
+isquid:S3457œ"Q%n should be used in place of \n to produce the platform-specific line separator.(€‡ĞÉ
+P
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(€‡ĞÉ
+U
+squid:S106 "9Replace this use of System.out or System.err by a logger.(“§È¦ÿÿÿÿÿ
+isquid:S3457¦"Q%n should be used in place of \n to produce the platform-specific line separator.(€‡ĞÉ
+P
+squid:S106¦"9Replace this use of System.out or System.err by a logger.(€‡ĞÉ

@@ -1,0 +1,79 @@
+
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ı§çÑ
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ğä®
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±è®
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±è®
+nsquid:S00117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…îºÜıÿÿÿÿ
+isquid:S00117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š£–Ä
+nsquid:S00117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥½øÿÿÿÿ
+nsquid:S00117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¥Æ¾ûÿÿÿÿ
+nsquid:S00117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½å Ÿüÿÿÿÿ
+isquid:S00116"QRename this field "Vertex" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç±¦Â
+gsquid:S00116	"PRename this field "GType" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ûˆ\
+lsquid:S00116
+"TRename this field "VertexNum" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áãí
+jsquid:S00116"RRename this field "EdgeNum" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æšöı
+msquid:S00116"URename this field "EdgeWeight" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ô‘Á
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ä÷ŸÑ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ãÚâç
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ğä®
+;squid:S1659"Declare "j" on a separate line.(Æ™‚ùÿÿÿÿ
+;squid:S1659"Declare "k" on a separate line.(Æ™‚ùÿÿÿÿ
+:squid:S1659"#Declare "EendV" on a separate line.(±è®
+hsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(†ïÇÇ
+<squid:S3457"%String contains no format specifiers.(†ïÇÇ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(†ïÇÇ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Öß›ûÿÿÿÿ
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ø™£‚øÿÿÿÿ
+Asquid:S3457"%String contains no format specifiers.(ø™£‚øÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ø™£‚øÿÿÿÿ
+T
+squid:S106!"9Replace this use of System.out or System.err by a logger.(’–µıùÿÿÿÿ
+ksquid:S00100/"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…îºÜıÿÿÿÿ
+;squid:S16591"Declare "j" on a separate line.(¦¢Éëùÿÿÿÿ
+fsquid:S00100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š£–Ä
+;squid:S1659>"Declare "j" on a separate line.(¦¢Éëùÿÿÿÿ
+O
+squid:S106A"9Replace this use of System.out or System.err by a logger.(£’ùÈ
+hsquid:S3457C"Q%n should be used in place of \n to produce the platform-specific line separator.(ï«¨°
+<squid:S3457C"%String contains no format specifiers.(ï«¨°
+O
+squid:S106C"9Replace this use of System.out or System.err by a logger.(ï«¨°
+O
+squid:S106F"9Replace this use of System.out or System.err by a logger.(®‚ÌÉ
+<squid:S3457K"%String contains no format specifiers.(Ğ£»Ò
+O
+squid:S106K"9Replace this use of System.out or System.err by a logger.(Ğ£»Ò
+T
+squid:S106O"9Replace this use of System.out or System.err by a logger.(ççïÚıÿÿÿÿ
+hsquid:S3457R"Q%n should be used in place of \n to produce the platform-specific line separator.(ï«¨°
+<squid:S3457R"%String contains no format specifiers.(ï«¨°
+O
+squid:S106R"9Replace this use of System.out or System.err by a logger.(ï«¨°
+ksquid:S00100V"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥½øÿÿÿÿ
+O
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(Çˆë—
+ksquid:S00100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¥Æ¾ûÿÿÿÿ
+<squid:S3457n"%String contains no format specifiers.(ã¤Î
+O
+squid:S106n"9Replace this use of System.out or System.err by a logger.(ã¤Î
+hsquid:S3457v"Q%n should be used in place of \n to produce the platform-specific line separator.(ï«¨°
+<squid:S3457v"%String contains no format specifiers.(ï«¨°
+O
+squid:S106v"9Replace this use of System.out or System.err by a logger.(ï«¨°
+Asquid:S3457|"%String contains no format specifiers.(âÚ¤“úÿÿÿÿ
+T
+squid:S106|"9Replace this use of System.out or System.err by a logger.(âÚ¤“úÿÿÿÿ
+<squid:S3457~"%String contains no format specifiers.(áøàø
+O
+squid:S106~"9Replace this use of System.out or System.err by a logger.(áøàø
+=squid:S3457€"%String contains no format specifiers.(‚¯Ü‰
+P
+squid:S106€"9Replace this use of System.out or System.err by a logger.(‚¯Ü‰
+isquid:S3457„"Q%n should be used in place of \n to produce the platform-specific line separator.(—’Ü²
+=squid:S3457„"%String contains no format specifiers.(—’Ü²
+P
+squid:S106„"9Replace this use of System.out or System.err by a logger.(—’Ü²

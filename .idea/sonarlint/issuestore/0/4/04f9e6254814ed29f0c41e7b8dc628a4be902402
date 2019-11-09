@@ -1,0 +1,127 @@
+
+Msquid:S2589"7Remove this expression which always evaluates to "true"(÷›î
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ìôàúıÿÿÿÿ
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á©Å®
+hsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¹–¶ø
+<squid:S3457"%String contains no format specifiers.(¹–¶ø
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹–¶ø
+isquid:S3776&"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(« ƒ½
+fsquid:S00100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(« ƒ½
+@squid:S1659("$Declare "parent" on a separate line.(¡ì¶¼ûÿÿÿÿ
+msquid:S3457."Q%n should be used in place of \n to produce the platform-specific line separator.(ÀíÁÿÿÿÿÿ
+Asquid:S3457."%String contains no format specifiers.(ÀíÁÿÿÿÿÿ
+T
+squid:S106."9Replace this use of System.out or System.err by a logger.(ÀíÁÿÿÿÿÿ
+Asquid:S34574"%String contains no format specifiers.(Ö¤÷±øÿÿÿÿ
+T
+squid:S1064"9Replace this use of System.out or System.err by a logger.(Ö¤÷±øÿÿÿÿ
+hsquid:S3457:"Q%n should be used in place of \n to produce the platform-specific line separator.(¹Ù²½
+<squid:S3457:"%String contains no format specifiers.(¹Ù²½
+O
+squid:S106:"9Replace this use of System.out or System.err by a logger.(¹Ù²½
+msquid:S3457>"Q%n should be used in place of \n to produce the platform-specific line separator.(ìòôŞüÿÿÿÿ
+Asquid:S3457>"%String contains no format specifiers.(ìòôŞüÿÿÿÿ
+T
+squid:S106>"9Replace this use of System.out or System.err by a logger.(ìòôŞüÿÿÿÿ
+msquid:S3457G"Q%n should be used in place of \n to produce the platform-specific line separator.(²’ºÉúÿÿÿÿ
+Asquid:S3457G"%String contains no format specifiers.(²’ºÉúÿÿÿÿ
+T
+squid:S106G"9Replace this use of System.out or System.err by a logger.(²’ºÉúÿÿÿÿ
+msquid:S3457P"Q%n should be used in place of \n to produce the platform-specific line separator.(ö³ÇÎúÿÿÿÿ
+Asquid:S3457P"%String contains no format specifiers.(ö³ÇÎúÿÿÿÿ
+T
+squid:S106P"9Replace this use of System.out or System.err by a logger.(ö³ÇÎúÿÿÿÿ
+msquid:S3457Z"Q%n should be used in place of \n to produce the platform-specific line separator.(¥Ù¢ïıÿÿÿÿ
+Asquid:S3457Z"%String contains no format specifiers.(¥Ù¢ïıÿÿÿÿ
+T
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(¥Ù¢ïıÿÿÿÿ
+msquid:S3457b"Q%n should be used in place of \n to produce the platform-specific line separator.(ìÂÖ›ùÿÿÿÿ
+Asquid:S3457b"%String contains no format specifiers.(ìÂÖ›ùÿÿÿÿ
+T
+squid:S106b"9Replace this use of System.out or System.err by a logger.(ìÂÖ›ùÿÿÿÿ
+ksquid:S00100j"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÅë±üÿÿÿÿ
+gsquid:S00100Š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ‰µ
+gsquid:S00100–"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Üâ
+lsquid:S00100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÏÏ…üÿÿÿÿ
+lsquid:S00100®"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÂßşÿÿÿÿ
+Csquid:S1659°"&Declare "depright" on a separate line.(Ü»‹¾ùÿÿÿÿ
+gsquid:S00100Å"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶şŸİ
+fsquid:S00100Ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ö™x
+U
+squid:S106Ò"9Replace this use of System.out or System.err by a logger.(•ªÌŠÿÿÿÿÿ
+lsquid:S00100Ö"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ÊíÊøÿÿÿÿ
+:squid:S1659Ú""Declare "tail" on a separate line.(’úÔÔ
+gsquid:S00100õ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÍÖŠ
+lsquid:S00100ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áîÍİşÿÿÿÿ
+gsquid:S00100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö½ÈÙ
+nsquid:S3457›"Q%n should be used in place of \n to produce the platform-specific line separator.(Î¥Ïûúÿÿÿÿ
+Bsquid:S3457›"%String contains no format specifiers.(Î¥Ïûúÿÿÿÿ
+U
+squid:S106›"9Replace this use of System.out or System.err by a logger.(Î¥Ïûúÿÿÿÿ
+Bsquid:S3457œ"%String contains no format specifiers.(ì¼ùÿÿÿÿ
+U
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(ì¼ùÿÿÿÿ
+isquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(è½©
+=squid:S3457"%String contains no format specifiers.(è½©
+P
+squid:S106"9Replace this use of System.out or System.err by a logger.(è½©
+Lsquid:EmptyStatementUsageCheck§"Remove this empty statement.(Åñ­õşÿÿÿÿ
+nsquid:S3457­"Q%n should be used in place of \n to produce the platform-specific line separator.(±ì¤ıÿÿÿÿ
+Bsquid:S3457­"%String contains no format specifiers.(±ì¤ıÿÿÿÿ
+U
+squid:S106­"9Replace this use of System.out or System.err by a logger.(±ì¤ıÿÿÿÿ
+<squid:S3457®"%String contains no format specifiers.(›éŒb
+O
+squid:S106®"9Replace this use of System.out or System.err by a logger.(›éŒb
+isquid:S3457¯"Q%n should be used in place of \n to produce the platform-specific line separator.(œ½èŸ
+=squid:S3457¯"%String contains no format specifiers.(œ½èŸ
+P
+squid:S106¯"9Replace this use of System.out or System.err by a logger.(œ½èŸ
+=squid:S3457°"%String contains no format specifiers.(Àâ„
+P
+squid:S106°"9Replace this use of System.out or System.err by a logger.(Àâ„
+isquid:S3457±"Q%n should be used in place of \n to produce the platform-specific line separator.(û˜ï¢
+=squid:S3457±"%String contains no format specifiers.(û˜ï¢
+P
+squid:S106±"9Replace this use of System.out or System.err by a logger.(û˜ï¢
+isquid:S3457¸"Q%n should be used in place of \n to produce the platform-specific line separator.(ÖÉª
+=squid:S3457¸"%String contains no format specifiers.(ÖÉª
+P
+squid:S106¸"9Replace this use of System.out or System.err by a logger.(ÖÉª
+isquid:S3457º"Q%n should be used in place of \n to produce the platform-specific line separator.(ï«¨°
+=squid:S3457º"%String contains no format specifiers.(ï«¨°
+P
+squid:S106º"9Replace this use of System.out or System.err by a logger.(ï«¨°
+nsquid:S3457½"Q%n should be used in place of \n to produce the platform-specific line separator.(ºã…Œÿÿÿÿÿ
+Bsquid:S3457½"%String contains no format specifiers.(ºã…Œÿÿÿÿÿ
+U
+squid:S106½"9Replace this use of System.out or System.err by a logger.(ºã…Œÿÿÿÿÿ
+isquid:S3457¿"Q%n should be used in place of \n to produce the platform-specific line separator.(ï«¨°
+=squid:S3457¿"%String contains no format specifiers.(ï«¨°
+P
+squid:S106¿"9Replace this use of System.out or System.err by a logger.(ï«¨°
+nsquid:S3457Â"Q%n should be used in place of \n to produce the platform-specific line separator.(äµàŠûÿÿÿÿ
+Bsquid:S3457Â"%String contains no format specifiers.(äµàŠûÿÿÿÿ
+U
+squid:S106Â"9Replace this use of System.out or System.err by a logger.(äµàŠûÿÿÿÿ
+isquid:S3457Ä"Q%n should be used in place of \n to produce the platform-specific line separator.(ï«¨°
+=squid:S3457Ä"%String contains no format specifiers.(ï«¨°
+P
+squid:S106Ä"9Replace this use of System.out or System.err by a logger.(ï«¨°
+nsquid:S3457Ç"Q%n should be used in place of \n to produce the platform-specific line separator.(øå”şÿÿÿÿ
+Bsquid:S3457Ç"%String contains no format specifiers.(øå”şÿÿÿÿ
+U
+squid:S106Ç"9Replace this use of System.out or System.err by a logger.(øå”şÿÿÿÿ
+isquid:S3457É"Q%n should be used in place of \n to produce the platform-specific line separator.(ï«¨°
+=squid:S3457É"%String contains no format specifiers.(ï«¨°
+P
+squid:S106É"9Replace this use of System.out or System.err by a logger.(ï«¨°
+Lsquid:EmptyStatementUsageCheckÌ"Remove this empty statement.(Åñ­õşÿÿÿÿ
+nsquid:S3457Ğ"Q%n should be used in place of \n to produce the platform-specific line separator.(Î“ä§ÿÿÿÿÿ
+U
+squid:S106Ğ"9Replace this use of System.out or System.err by a logger.(Î“ä§ÿÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(®ö©à
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ú°à¬
+csquid:CommentedOutCodeLineÌ"<This block of commented-out lines of code should be removed.(¨ĞÓ

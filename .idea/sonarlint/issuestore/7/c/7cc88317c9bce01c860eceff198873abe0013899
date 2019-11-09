@@ -1,0 +1,55 @@
+
+tsquid:S1192"XDefine a constant instead of duplicating this literal "ç”³è¯·å†…å­˜å¤±è´¥ï¼\n" 3 times.(‘¹—¨úÿÿÿÿ
+`squid:S25830"DChange this condition so that it does not always evaluate to "false"(íëğóÿÿÿÿÿ
+`squid:S2583"DChange this condition so that it does not always evaluate to "false"(íëğóÿÿÿÿÿ
+[squid:S2583P"DChange this condition so that it does not always evaluate to "false"(Ø¹›æ
+ksquid:S00101—"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ä´‰•şÿÿÿÿ
+nsquid:S00117}"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¬Úùÿÿÿÿ
+osquid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥˜™ôşÿÿÿÿ
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¨Ñ¹ıÿÿÿÿ
+?squid:S1659"#Declare "htemp" on a separate line.(ÉŸ“Àüÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘¹—¨úÿÿÿÿ
+ksquid:S00100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ûå¶ûÿÿÿÿ
+T
+squid:S1062"9Replace this use of System.out or System.err by a logger.(‘¹—¨úÿÿÿÿ
+ksquid:S00100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËáËøÿÿÿÿ
+ksquid:S00100M"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åñğãûÿÿÿÿ
+=squid:S1659O"&Declare "nodetemp" on a separate line.(åÉÛ
+T
+squid:S106R"9Replace this use of System.out or System.err by a logger.(‘¹—¨úÿÿÿÿ
+T
+squid:S106^"9Replace this use of System.out or System.err by a logger.(ç†«œÿÿÿÿÿ
+fsquid:S00100d"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹°÷Â
+:squid:S1659f"#Declare "htemp" on a separate line.(˜İÓ
+ksquid:S00100z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åâ‡ãùÿÿÿÿ
+lsquid:S00100‡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸŸåÊşÿÿÿÿ
+^squid:HiddenFieldCheckŠ"<Rename "nodeData" which hides the field declared at line 15.(‡ ”}
+nsquid:S3457Œ"Q%n should be used in place of \n to produce the platform-specific line separator.(°ÎÕØùÿÿÿÿ
+U
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(°ÎÕØùÿÿÿÿ
+isquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¶»¿¨
+P
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶»¿¨
+?squid:S1659š""Declare "head" on a separate line.(§ÎÎßúÿÿÿÿ
+Bsquid:S1659œ"%Declare "findkey" on a separate line.(ãöñıÿÿÿÿÿ
+P
+squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ª÷…½
+nsquid:S3457±"Q%n should be used in place of \n to produce the platform-specific line separator.(ÕµØüÿÿÿÿ
+Bsquid:S3457±"%String contains no format specifiers.(ÕµØüÿÿÿÿ
+U
+squid:S106±"9Replace this use of System.out or System.err by a logger.(ÕµØüÿÿÿÿ
+U
+squid:S106³"9Replace this use of System.out or System.err by a logger.(Î·‘şÿÿÿÿ
+P
+squid:S106»"9Replace this use of System.out or System.err by a logger.(ªÀ—
+nsquid:S3457Á"Q%n should be used in place of \n to produce the platform-specific line separator.(Õ š²ıÿÿÿÿ
+Bsquid:S3457Á"%String contains no format specifiers.(Õ š²ıÿÿÿÿ
+U
+squid:S106Á"9Replace this use of System.out or System.err by a logger.(Õ š²ıÿÿÿÿ
+nsquid:S3457Ç"Q%n should be used in place of \n to produce the platform-specific line separator.(ƒâÎØûÿÿÿÿ
+U
+squid:S106Ç"9Replace this use of System.out or System.err by a logger.(ƒâÎØûÿÿÿÿ
+isquid:S3457Ë"Q%n should be used in place of \n to produce the platform-specific line separator.(¥ÜŞø
+P
+squid:S106Ë"9Replace this use of System.out or System.err by a logger.(¥ÜŞø
