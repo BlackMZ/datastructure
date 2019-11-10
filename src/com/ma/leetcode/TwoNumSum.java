@@ -68,6 +68,10 @@ public class TwoNumSum {
         return true;
     }
 
+    public static boolean isPowerOfTwo(int num) {
+        return (num & num - 1) == 0;
+    }
+
     public static void main(String[] args) {
         int[] array = new int[]{12, 5, 6, 15, 9,21};
         int[] ints = twoSum(array, 15);
@@ -80,5 +84,7 @@ public class TwoNumSum {
 
         String s = "ababa";
         System.out.println(isString(s));
+
+        System.out.println(isPowerOfTwo(16));
     }
 }
