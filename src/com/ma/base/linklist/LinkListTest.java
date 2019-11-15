@@ -79,7 +79,7 @@ public class LinkListTest {
     }
 
     public Node remove(int index) {
-        if (index < 0 || index > size) {
+        if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException("超出链表节点范围！");
         }
         Node removeNode = null;
@@ -297,6 +297,7 @@ public class LinkListTest {
         linkListTest.addEnd(24);
         linkListTest.output();
         System.out.println(linkListTest.get(0).data);
+        linkListTest.remove(9);
         linkListTest.output();
         System.out.println("中间节点：" + linkListTest.getMiddle());
         System.out.println("中间节点：" + linkListTest.getMiddleTwo());
