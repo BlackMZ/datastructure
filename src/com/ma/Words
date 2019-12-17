@@ -20,7 +20,7 @@ gasolene
 gasoline
 gaucho
 gaudy
-gauge
+gauge  1
 gaunt
 garment
 gaze
@@ -40,7 +40,7 @@ genocide
 genre
 gentleness
 gently
-genuine
+genuine  1
 geographic
 geography
 geological
@@ -53,7 +53,7 @@ ghostly
 giggle
 gipsy gypsy
 giraffe
-gird
+gird 1
 girl
 girlish
 glamorous
@@ -63,12 +63,12 @@ glass
 glassful
 glassware
 glassy
-glaze
-gleam
+glaze 1
+gleam 1
 glide
 glimmer
 glimpse
-gloat
+gloat  1
 global
 globalization
 globe
@@ -83,8 +83,8 @@ gosling
 wild goose
 gorge
 gorgeous
-gospel
-gossip
+gospel  1
+gossip  1
 govern
 government
 governor
@@ -100,11 +100,11 @@ graffito
 gram atom
 grammatical
 gramophone
-granary
-grand
-granite
+granary  1
+grand  1
+granite  1
 granny
-grant
+grant    1
 graph
 grasp
 grateful
@@ -141,7 +141,7 @@ grownup
 growth
 grudgingly
 gruel
-grumpy
+grumpy  1
 guarantee
 guarantor
 guaranty
@@ -156,7 +156,7 @@ gum
 gummy
 gunner
 gunpowder
-gutter
+gutter  1
 gym
 gymnasium
 gymnast
