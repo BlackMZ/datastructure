@@ -579,6 +579,7 @@ public class SortTest {
 
         int[] sort = new int[a.length];
         for (int i = length - 1; i >= 0; i--) {
+            //index = count[a[i] - min] - 1
             sort[count[a[i] - min] - 1] = a[i];
             count[a[i] - min]--;
         }
