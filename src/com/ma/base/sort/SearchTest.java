@@ -1,11 +1,5 @@
 package com.ma.base.sort;
 
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-
 /**
  * @Author: John.ma
  * @Description:
@@ -15,68 +9,138 @@ public class SearchTest {
 
     public static void main(String[] args) {
         int[] a = {2, 12, 23, 26, 34, 56, 89, 98, 128, 145, 225, 275, 290, 356, 458, 587};
-        int i = halfSearch(a, 458);
+        int i = halfSearch(a, 89);
         System.out.println(i);
+        int[] b = {1, 5, 6, 9, 11, 11, 11, 15, 18, 19};
+        int first = binarySearchFirst(b, 11);
+        System.out.println(first);
+        int last = binarySearchLast(b, 11);
+        System.out.println(last);
 
-        getDayOfWeekWithinDateInterval("2019-08-13", "2019-08-25",0).forEach(s -> System.out.println(s));
-        System.out.println("----------------------");
-        getDayOfWeekWithinDateInterval("2019-08-13", "2019-08-25",1).forEach(s -> System.out.println(s));
-        System.out.println("----------------------");
-        getDayOfWeekWithinDateInterval("2019-08-13", "2019-08-25",2).forEach(s -> System.out.println(s));
-        System.out.println("----------------------");
-        getDayOfWeekWithinDateInterval("2019-08-13", "2019-08-25",3).forEach(s -> System.out.println(s));
-        System.out.println("----------------------");
-        getDayOfWeekWithinDateInterval("2019-08-13", "2019-08-25",4).forEach(s -> System.out.println(s));
-        System.out.println("----------------------");
-        getDayOfWeekWithinDateInterval("2019-08-13", "2019-08-25",5).forEach(s -> System.out.println(s));
-        System.out.println("----------------------");
-        getDayOfWeekWithinDateInterval("2019-08-13", "2019-08-25",6).forEach(s -> System.out.println(s));
+        int firstBigger = binarySearchFirstBigger(b, 7);
+        System.out.println(firstBigger);
+
+        int lastSmaller = binarySearchLastSmaller(b, 7);
+        System.out.println(lastSmaller);
     }
 
-    public static int halfSearch(int[] a, int key) {
+    private static int halfSearch(int[] a, int key) {
         int low = 0;
-        int high = a.length;
+        int high = a.length - 1;
         int mid;
         while (low <= high) {
-            mid = (low + high) / 2;
+            mid = low + ((high - low) >> 1);
             if (a[mid] > key) {
                 high = mid - 1;
-            }
-            if (a[mid] < key) {
+            } else if (a[mid] < key) {
                 low = mid + 1;
-            }
-            if (a[mid] == key) {
-                return  a[mid];
+            } else if (a[mid] == key) {
+                return a[mid];
             }
         }
         return -1;
     }
 
     /**
-     * 获取某段时间内的周一（二等等）的日期
-     * @param dataBegin 开始日期
-     * @param dataEnd 结束日期
-     * @param weekDays 获取周几，1－6代表周一到周六。0代表周日
-     * @return 返回日期List
+     * 查找第一个值等于给定值的元素
+     *
+     * @param array 查找数组
+     * @param key   查找元素
+     * @return 元素（下标）
      */
-    public static List<String> getDayOfWeekWithinDateInterval(String dataBegin, String dataEnd, int weekDays) {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        List<String> dateResult = new ArrayList<>();
-        Calendar cal = Calendar.getInstance();
-        String[] dateInterval = {dataBegin, dataEnd};
-        Date[] dates = new Date[dateInterval.length];
-        for (int i = 0; i < dateInterval.length; i++) {
-            String[] ymd = dateInterval[i].split("[^\\d]+");
-            cal.set(Integer.parseInt(ymd[0]), Integer.parseInt(ymd[1]) - 1, Integer.parseInt(ymd[2]));
-            dates[i] = cal.getTime();
-        }
-        for (Date date = dates[0]; date.compareTo(dates[1]) <= 0; cal.add(Calendar.DATE, 1) , date = cal.getTime()) {
-            cal.setTime(date);
-            if (cal.get(Calendar.DAY_OF_WEEK) - 1 == weekDays) {
-                String format = sdf.format(date);
-                dateResult.add(format);
+    private static int binarySearchFirst(int[] array, int key) {
+        int length = array.length;
+        int low = 0;
+        int high = length - 1;
+        int mid;
+        while (low <= high) {
+            mid = low + ((high - low) >> 1);
+            if (array[mid] > key) {
+                high = mid - 1;
+            } else if (array[mid] < key) {
+                low = mid + 1;
+            } else {
+                if ((mid == 0) || (array[mid - 1] != key)) return mid;
+                else high = mid - 1;
             }
         }
-        return dateResult;
+//        if (low < array.length && array[low] == key) return low;
+//        else
+        return -1;
     }
+
+    /**
+     * 查找最后一个值等于给定值的元素
+     *
+     * @param array 查找数组
+     * @param key   查找元素
+     * @return 元素（下标）
+     */
+    private static int binarySearchLast(int[] array, int key) {
+        int length = array.length;
+        int low = 0;
+        int high = length - 1;
+        int mid;
+        while (low <= high) {
+            mid = low + ((high - low) >> 1);
+            if (array[mid] > key) {
+                high = mid - 1;
+            } else if (array[mid] < key) {
+                low = mid + 1;
+            } else {
+                if ((mid == (length - 1)) || (array[mid + 1] != key)) return mid;
+                else low = mid + 1;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * 查找第一个大于等于给定值的元素
+     *
+     * @param array 查找数组
+     * @param key   查找元素
+     * @return 元素（下标）
+     */
+    private static int binarySearchFirstBigger(int[] array, int key) {
+        int length = array.length;
+        int low = 0;
+        int high = length - 1;
+        int mid;
+        while (low <= high) {
+            mid = low + ((high - low) >> 1);
+            if (array[mid] > key) {
+                if ((mid == 0) || (array[mid - 1] < key)) return mid;
+                else high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * 查找最后一个小于等于给定值的元素
+     *
+     * @param array 查找数组
+     * @param key   查找元素
+     * @return 元素（下标）
+     */
+    private static int binarySearchLastSmaller(int[] array, int key) {
+        int length = array.length;
+        int low = 0;
+        int high = length - 1;
+        int mid;
+        while (low <= high) {
+            mid = low + ((high - low) >> 1);
+            if (array[mid] > key) {
+                high = mid - 1;
+            } else {
+                if ((mid == length - 1) || (array[mid + 1] > key)) return mid;
+                else low = mid + 1;
+            }
+        }
+        return -1;
+    }
+
 }
