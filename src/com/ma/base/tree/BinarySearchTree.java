@@ -159,11 +159,13 @@ public class BinarySearchTree {
         System.out.println(node.data);
         Node max = tree.findMax();
         System.out.println(max.data);
-        tree.preSort(tree.tree);
-        System.out.println();
+//        tree.preSort(tree.tree);
+//        System.out.println();
+//        tree.middleSort(tree.tree);
+//        System.out.println();
+//        tree.postSort(tree.tree);
+        tree.delete(18);
         tree.middleSort(tree.tree);
-        System.out.println();
-        tree.postSort(tree.tree);
     }
 
 }
