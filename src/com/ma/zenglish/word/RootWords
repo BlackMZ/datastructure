@@ -589,10 +589,10 @@
         scripturally【scriptural + -ly副词后缀】
         scriptwriter【-script-编写--writer 作者，编剧】
         rescript【re-反复 + -script-写--反复抄写--抄件--法令】
-        describe【de-向下 + -script-写--记述--描述 +-e动词后缀--写下来】
         nondescript【non-否定 + de-下 + -script-写--无法描述】
         misdescribe【mis-错误 + describe】
-核心词：descriptor【describe(-scrib- = -script-写) + -or名词后缀，表人】
+核心词：describe【de-向下 + -script-写--记述--描述 +-e动词后缀--写下来】
+        descriptor【describe(-scrib- = -script-写) + -or名词后缀，表人】
         described【describe + -ed形容词后缀，表被动】
         describer【见上：-er名词后缀，表人】
 核心词：description【descript + -ion名词后缀】
@@ -614,7 +614,7 @@
         prescription-drug【合成词】
         prescriptive【prescript + -ive形容词后缀】
         manuscript【-manu-手 +-script-写】
-        subscribe【sub-向下 + -scrib-写--签署 + -e动词后缀】
+核心词：subscribe【sub-向下 + -scrib-写--签署 + -e动词后缀】
         subscriber【见上：-er名词后缀，表人】
         subscription【subscript + -ion名词后缀】
 核心词：transcribe【trans-改变，通过 + -scrib-写--转录 + -e动词后缀】
@@ -628,18 +628,18 @@
         inscribed【同上：-ed形容词后缀】
         inscription【同上：-ion名词后缀】
         reinscription【re-再次，重新  + inscription】
-        circumscribe【-circum-圆 + -scrib-刻写--环切 + -e动词后缀】
+核心词：circumscribe【-circum-圆 + -scrib-刻写--环切 + -e动词后缀】
         circumscribed【同上：-ed形容词后缀】
         well-circumscribed【合成词】
         circumscription【同上：-ion名词后缀】
-        conscript【con-强调 = -script- 写--签署服兵役】
+核心词：conscript【con-强调 = -script- 写--签署服兵役】
         conscription【同上：-ion名词后缀】
         conscribe【con-强调 + -scrib-写--签署服兵役】
 核心词：ascribe【a??-表强调（词根首字母辅音决定）a-远离--分离+-scrib-写--一边写--一边倒--归咎于 +-e动词后缀】
         ascribed【同上：-ed形容词后缀】
         ascription【同上：-ion名词后缀】
         ascriptive【同上：-ive形容词后缀】
-        proscribe【pro-在前，提前 + -scrib-写--提前约定--规定--禁止 + -e动词后缀】
+核心词：proscribe【pro-在前，提前 + -scrib-写--提前约定--规定--禁止 + -e动词后缀】
         proscribed【同上：-ed形容词后缀】
         proscription【同上：-ion名词后缀】
         postscript【post-后 + -script-写--写在后面--附言】
@@ -809,99 +809,148 @@
 11.-rect-正，直
 【词源】来自拉丁语regere，-reg-经过音变为-rect-
 【引申】统治/支配/控制/直的/僵直
-核心词：correct【】
-        correctly【】
-        correctness【】
-        correction【】
-        corrected【】
-        correctional【】
-        corrective【】
-        correcting【】
-        corrector【】
-        correctitude【】
-        uncorrected【】
-        correctable【】
-        incorrect【】
-        incorrectly【】
-核心词：direct【】
-        directed【】
-        directness【】
-        direction【】
-        directive【】
-        directing【】
-        directory【】
-        directional【】
-        director【】
-        directorate【】
-        directorial【】
-        co-director【】
-        directress【】
-        directly【】
-        directionless【】
-        self-directed【】
-        misdirect【】
-        indirection【】
-        indirectly【】
-        directorship【】
-        direct-mail【】
-        undirected【】
-        multidirectional【】
-核心词：rectify【】
-        rectifier【】
-        rectification【】
-        rectilineal【】
-        rectangle【】
-        rectal【】
-        rector【】
-        rectory【】
-核心词：erect【】
-        erectile【】
-        erection【】
-        erective【】
-        erector【】
-        rectum【】
-        resurrect【】
-        resurrection【】
-        redirect【】
-        redirection【】
-        insurrection【】
-        insurrectionist【】
-        insurrectionary【】
-        colorectal【】
-        rectitude【】
-        bidirectional【】
-        director-general【】
-        unidirectional【】
-        misdirection【】
-        misdirected【】
-        rectus【】
-        writer-director【】
-        self-direction【】
-        goal-directed【】
-        self-correcting【】
-        directionality【】
-        teacher-directed【】
-        incorrectness【】
-        recto【】
-        non-directive【】
-        state-directed【】
-        other-directed【】
-        self-direction【】
-        omnidirectional【】
-        direct-marketing【】
-        direct-drive【】
-        direct-injection【】
-        producer-director【】
-        direct-view【】
-        direct-action【】
-        endarterectomy【】
-        student-direct【】
-        consumer-directed【】
-        direct-to-video【】
-        nephrectomy【】
-        direct-response【】
-        direct-sales【】
-        anorectal【】
+【前缀】1.con-=com-=cor-=col-=co-在一起，共同，强调
+        2.un-=in-=im- 表否定
+        3.di-=de-=dis-=is- 分，分离，失去，否定，向下
+            例词：is-分 + land 陆地 + island n 岛屿
+        4.self-自己
+        5.mis-错误
+        6.multi-多
+        7.e-=ex-=e??- 向外，强调【问号指代两个相同的的双写辅音字母】
+        8.re-重复，再次，往回，强调
+        9.sub-=sup-=sus-=sur- 下，留下，向下
+        10.in- = im- 向内，使动，否定
+        11.en-=en-=in-使动
+            例如：en- 使动 + rich = enrich 使富有； en-使动 + large = enlarge 使扩大；en-使动 + courage = encourage
+        12.non-否定 = none = no one
+【后缀】多重后缀在一起，只由最后一个后缀决定单词的误导性
+        1.-ly形容词或副词后缀（一般地，接在名词后为形容词；接在形容词后为副词）
+            例如：friend + -ly形容词后缀 = friendly adj 友好的
+                  correct + -ly副词后缀 = correctly adv 正确地
+        2.-ness 名词后缀，表物，表学术，学科性等名词
+        3.-ion 名词后缀，表物（极少情况下，会涉及动词含义）
+        4.-ed 形容词后缀，表...的，修饰主语是人；也表规则动词变化的过去式和动词分词
+        5.-al = -el=-il=-ul 形容词或名词后缀
+        6.-ive 形容词或名词后缀(作名词表人或物)
+            例词：detective adj 侦探的 n 侦探
+        7.-ing 形容词后缀，表令...的；也表动名词后缀（就是名词）
+        8.-ar=-er=-ir=-or=-ur 名词后缀，表人或物；形容词后缀（可能来自形容词比较级）
+        9.-itude 名词后缀
+        10.-able=-ible=-ile=（-ble） 形容词后缀，表能....的
+        11.-ary=-ery=-ory=-ury 名词（表物）或形容词后缀
+        12.-ate=-ite=-ute 形容词或动词后缀；(由-ate构成的复杂的单词肯定能直接名词)（-ate/-ite/-ute + -ion通常构成复合名词后缀=-ation/-ition/-ution)
+        13.-ess 女性（雌性） 名词后缀
+            例如：actor 演员； actress 女演员
+                  waiter 服务员； waitress 女服务员
+                  tiger 老虎； tigress 母老虎
+        14.-less 否定形容词后缀
+            例如：home 家 + -less 否定形容词后缀 = homeless 无家可归的
+                  hope 希望 + -less 否定形容词后缀 = hopeless 绝望的
+                  care 仔细，关心 + -less 否定形容词后缀 = careless 粗心的
+                  meaning 有意义 + -less 否定形容词后缀 = meaningless 无意义的
+                  use 使用，有用 + -less 否定形容词后缀 = useless 无用的，废物的
+        15.-ship 名词后缀，表抽象含义
+            例如: frend + -ship
+        16.-fy 动词后缀（难点在于它的名词化，只要是-fy结尾一旦名词化：-i-连字符 + -fication = -ification复合名词后缀）
+        17.-ic 形容词或名词后缀
+        18.-um=-im = (-em) 名词后缀
+        *19.-us名词后缀
+        20.-ty=-(i)ty=-(e)ty=-edy 名词后缀
+核心词：correct【cor-强调 + -rect-正--改正，修正词根直接结尾的单词99%都是多误词性】
+        correctly【correct +-ly副词后缀】
+        correctness【correct + -ness名词后缀】
+        correction【correct + -ion名词后缀】
+        corrected【correct + -ed形容词后缀】
+        correctional【correction + -al形容词后缀】
+        corrective【correct + -ive形容词后缀】
+        correcting【correct + -ing 形容词或动名词后缀】
+        corrector【correct + -or 名词后缀，表人】
+        correctitude【correct + -itude 名词后缀】
+        uncorrected【un-否定 + correct + -ed形容词后缀】
+        correctable【correct + -able 形容词后缀，表能...的】
+        incorrect【in-否定 + correct】
+        incorrectly【incorrect + -ly副词后缀】
+核心词：direct【de-分 + -rect-正，直--改正--导向正确】
+        directed【direct + -ed形容词后缀】
+        directness【direct + -ness名词后缀】
+        direction【direct + -ion 名词后缀】
+        directive【direct + -ive名词或形容词后缀】
+        directing【direct + -ing 形容词或动名词后缀】
+        directory【direct + -ory 名词后缀】
+        directional【direction + -al 形容词后缀】
+        director【direct + -or 名词后缀，表人】
+        directorate【director + -ate 名词后缀】
+        directorial【director + -i-连字符 + -al形容词后缀】
+        co-director【co-在一起 + director 共同引领--主要责任人】
+        directress【director + -ess 女性名词后缀】
+        directly【direct + -ly 副词后缀】
+        indirect【in-否定 + direct 直接的--不直接的--间接的】
+        directionless【direction + -less 否定形容词后缀】
+        self-directed【self-自己 + directed】
+        misdirect【mis-错误 + direct 引导--误导】
+        indirection【in-否定 + direction】
+        indirectly【indirect + -ly副词后缀】
+        directorship【director + -ship 名词后缀，表抽象含义】
+        direct-mail【合成词】
+        undirected【un-否定 + directed】
+        multidirectional【multi-多 + directional】
+核心词：rectify【-rect-正--改正 + -i-连字符 + -fy 动词后缀】
+        rectifier【rectify + -er 名词后缀，表人  如果fy（y）结尾，加新后缀时y通常变i再加，或直接去掉】
+        rectification【rectify + -ic + -ation 复合名词后缀 = -rect-修正 + -i- + -fication 复合名词后缀】
+        rectitude【-rect-直 + -itude 名词后缀】
+        rectilineal【合成词：-rect-直 + -line 线 + -al形容词后缀】
+        rectangle【合成词：-rect-直 + angle 角--直角--矩形】
+        rectal【-rect-直--[医]直肠 + -al 形容词后缀】
+        rector【-rect-直，正--修正者，指导者 + -or名词后缀，表人】
+        rectory【-rect- +-ory 名词后续】
+核心词：erect【e-向外 + -rect- 直--向外直立--竖立】
+        erectile【erect + -ile 形容词后缀，表能...的】
+        erection【erect + -ion 名词后缀】
+        erective【erect + -ive形容词后缀】
+        erector【erect + -or 名词后缀】
+核心词：rectum【-rect-直 = -um 名词后缀】
+        resurrect【re-再次 + sur-下 + -rect-直--再次直立--从坟墓中破土而出】
+        resurrection【resurrect + -ion名词后缀】
+        redirect【re-再次 + direct 引领--重新定位--改方向】
+        redirection【redirect + -ion名词后缀】
+        insurrection【in-使动 + sur-下 + -rect-直--立起来--反抗，暴动 +-ion 名词后缀】
+        insurrectionist【insurrection + -ist名词后缀，表人】
+        insurrectionary【insurrection + -ary 名词后缀】
+        colorectal【col-强调 + -o- 连字符 +-rect-直--直的地方--直肠 + -al 形容词后缀】
+        rectitude【-rect-正--直--公正，诚实 + -itude】
+        bidirectional【bi-分--二 + directional】
+        director-general【合成词：general】
+        unidirectional【-un-整体，单一 + -i- 连字符 + directional】
+        misdirection【mis-错误 + direction】
+        misdirected【mis-错误 + directed】
+        rectus【-rect-直--直的形状，直线条 + -us名词后缀】
+        writer-director【合成词】
+        self-direction【合成词】
+        goal-directed【合成词】
+        self-correcting【合成词】
+        directionality【direct + -ion + -al + -i-连字符 + -ty名词后缀】
+        teacher-directed【合成词】
+        incorrectness【in-否定 + correct + -ness 名词后缀】
+        recto【-rect-正--正面 + -o 名词后缀】
+        non-directive【non-否定 + directive】
+        state-directed【合成词：state】
+        other-directed【合成词】
+        self-direction【合成词】
+        omnidirectional【-omni- 全 + directional】
+        direct-marketing【合成词】
+        direct-drive【合成词：drive】
+        direct-injection【合成词：in-向内 + -ject-投--向内投--投进去--注射 + -ion 名词后缀】
+        producer-director【合成词】
+        direct-view【合成词】
+        direct-action【合成词】
+        endarterectomy【en-使动 + -darterec-动脉 -tom-切 +-y 名词后缀 例词：atom = a-远--否定 + -tom-切--不可再切--不可再分割--原子】
+        student-direct【合成词】
+        consumer-directed【合成词】
+        direct-to-video【合成词】
+        nephrectomy【-nephrec-肾 + -tom- 切 + -y名词后缀】
+        direct-response【合成词：response 回应 = re-往回 + -spons-承诺 + -e名词后缀】
+        direct-sales【合成词】
+        anorectal【-ano-肠道口  + -rect-直--直肠 + -al形容词后缀】
 
 12.-flu-=-flux-流
 【词源】来自拉丁语fluere，-flux-为-flu-的变体
@@ -1308,7 +1357,7 @@
         protester【】
         protesting【】
         protestant【】
-        contest【】
+核心词：contest【】
         contestation【】
         non-contest【】
         contestant【】
@@ -1317,7 +1366,7 @@
         contesting【】
         contestable【】
         incontestable【】
-        detest【】
+核心词：detest【】
         detested【】
         detestable【】
         detestation【】
@@ -1361,3 +1410,322 @@
         steel-and-glass【】
         station【】
         stationary【】
+        stationery【】
+        stationer【】
+        stationing【】
+        molestation【】
+        child-molestation【】
+        superstation【】
+        gas-station【】
+        geostationary【】
+        stationmaster【】
+        space-station【】
+        stationhouse【】
+核心词：distant【】
+        distantly【】
+        distance【】
+        distancing【】
+        distal【】
+        distally【】
+        distance-learning【】
+        distant-water【】
+        far-distant【】
+        short-distance【】
+        long-distance【】
+        not-to-distant【】
+        not-so-distant【】
+        middle-distance【】
+核心词：stance【】
+        stanza【】
+        stanchion【】
+        circumstance【】
+        circumstantial【】
+        circumstantially【】
+核心词：instant【】
+        instantly【】
+        instancy【】
+        instance【】
+        instantaneous【】
+        instantaneously【】
+        instantiate【】
+        instant-read【】
+        instant-messaging【】
+核心词：substantiate【】
+        substantiation【】
+        substantiated【】
+        substantial【】
+        substantiality【】
+        insubstantial【】
+        unsubstantiated【】
+        substance【】
+        substance-use【】
+        substantially【】
+        substantive【】
+        substantively【】
+        constant【】
+        constantly【】
+        constancy【】
+        near-constant【】
+        inconstant【】
+        inconstancy【】
+        constable【】
+        constabulary【】
+        estancia【】
+        happenstance【】
+核心词：status【】
+        statue【】
+        stature【】
+        statutory【】
+        statuette【】
+        statuary【】
+        statuesque【】
+        statutorily【】
+        serostatus【】
+        high-status【】
+        status-conscious【】
+        final-status【】
+核心词：insist【】
+        insistent【】
+        insistently【】
+        insistence【】
+核心词：persist【】
+        persistent【】
+        persistently【】
+        persistence【】
+        contrast【】
+        high-contrast【】
+        contrasty【】
+        contrasting【】
+        contrasted【】
+        contrastive【】
+核心词：cost【】
+        costless【】
+        costume【】
+        costly【】
+        low-cost【】
+        high-cost【】
+        lower-cost【】
+        lowest-cost【】
+        cost-cutting【】
+        cost-sharing【】
+        cost-plus【】
+        staff【】
+        staffer【】
+        understaffed【】
+        well-staffed【】
+        stuff【】
+        stuffing【】
+        overstuff【】
+        overstuffed【】
+        unstuffed【】
+核心词：stable【】
+        unstable【】
+        stably【】
+        stability【】
+        instability【】
+        stabilize【】
+        stabilizer【】
+        stabilizing【】
+        stabilized【】
+        stabilization【】
+        stablemate【】
+        stableman【】
+        stableboy【】
+        destabilize【】
+        destabilizing【】
+        destabilized【】
+        destabilization【】
+        rent-stabilized【】
+        shelf-stable【】
+        metastable【】
+        establish【】
+        establishment【】
+        established【】
+        disestablish【】
+        disestablishment【】
+        re-establish【】
+        reestablishment【】
+        well-established【】
+        long-established【】
+        anti-establishment【】
+核心词：institute【】
+        institution【】
+        institutional【】
+        institutionalize【】
+        institutionalized【】
+        institutionalization【】
+        institutionally【】
+        institutionalism【】
+        reinstitution【】
+        anti-institutional【】
+核心词：obstacle【】
+        obstetric【】
+        obstetrics【】
+        obstinacy【】
+        obstetrician【】
+核心词：constitute【】
+        constitution【】
+        constitutional【】
+        constitutionality【】
+        constitutionally【】
+        constitutionalist【】
+        constitutionalism【】
+        constituent【】
+        constituency【】
+        constitutive【】
+        unconstitutional【】
+        unconstitutionality【】
+        unconstitutionally【】
+        extra-constitutional【】
+        anti-constitutional【】
+        self-constitution【】
+        reconstitute【】
+        reconstituted【】
+        reconstitution【】
+        consternation【】
+        constipation【】
+核心词：stall【】
+        stalled【】
+        stalling【】
+        stallion【】
+        long-stalled【】
+        install【】
+        installation【】
+        installment【】
+        installer【】
+        installed【】
+        reinstall【】
+        bookstall【】
+        uninstalled【】
+核心词：substitute【】
+        substitution【】
+        substituted【】
+        substitutive【】
+        substitutable【】
+        substitutability【】
+        substitutionary【】
+        import-substitution【】
+        substituting【】
+        import-substituting【】
+        prostitute【】
+        prostitution【】
+核心词：destine【】
+        destiny【】
+        destined【】
+        destitute【】
+        destination【】
+核心词：stead【】
+        steady【】
+        steadily【】
+        steadiness【】
+        unsteady【】
+        unsteadily【】
+        unsteadiness【】
+        homestead【】
+        farmstead【】
+        bedstead【】
+        steadfastly【】
+        instead【】
+        sturdy【】
+        sturdily【】
+核心词：nest【】
+        nested【】
+        nester【】
+        nestle【】
+        nesting【】
+        empty-nest【】
+        stadia【】
+        stadium【】
+核心词：steer【】
+        steering【】
+        understeer【】
+        steering-wheel【】
+        stat【】
+        static【】
+        statics【】
+        stator【】
+        statin【】
+        statism【】
+        staticky【】
+        statically【】
+        stative【】
+        hydrostatic【】
+        prostatic【】
+        homeostatic【】
+        apostatize【】
+        hemostat【】
+        hemostatic【】
+        ecstatic【】
+        ecstatically【】
+        thermostat【】
+        metastatic【】
+        electrostatic【】
+        electrostatically【】
+        parastatal【】
+        prostatitis【】
+        biostatistics【】
+        biostatistician【】
+        orthostatic【】
+        quasi-static【】
+        cyrostat【】
+        anti-static【】
+        rheostat【】
+        photostat【】
+        hypostatic【】
+        aerostat【】
+        subsist【】
+        subsistence【】
+        desist【】
+        superstition【】
+        superstitious【】
+        superstitiously【】
+        interstitial【】
+        stem【】
+        stemmed【】
+        stemware【】
+        epistemological【】
+        stem-cell【】
+        long-stemmed【】
+        stomp【】
+        stomping【】
+核心词：stalk【】
+        stalking【】
+        stale【】
+        staleness【】
+        stalemate【】
+        stalwart【】
+        oust【】
+        ousting【】
+        stiff【】
+        stiffen【】
+        stiffened【】
+        stub【】
+        stubborn【】
+        stubbornness【】
+        stamp【】
+        stamped【】
+        stampede【】
+        stamping【】
+        stern【】
+        staple【】
+        stapler【】
+        stoic【】
+        stoically【】
+        stoicism【】
+        stumble【】
+        stumbling【】
+        armistice【】
+        interstice【】
+        stasis【】
+        stet【】
+        cast【】
+        stool【】
+        stow【】
+        stamina【】
+        stud【】
+        stilt【】
+        systolic【】
+        diastolic【】
+        stamen【】
+        stilted【】
+        abstinent【】
