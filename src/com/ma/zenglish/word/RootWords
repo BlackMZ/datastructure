@@ -565,23 +565,27 @@
         scriptorium【-script- + -or + -i- + -um名词后缀】
         script【词根直接表单词】
         scripted【script+ -ed过去式和过去分词】
-        subscript【sub-向下 +-script-写 --下标】
         unscripted【un-否定 + -script- + -ed形容词后缀】
-核心词：scribble【-scrib(b)-写--草写 + -le动词或名词后缀 来自scribe写，-le表反复。引申词义为乱写，乱画】
-        scribbled【见上： + -ed过去式和过去分词】
-        scribbling【见上： + -ing动名词后缀】
-        scribbler【scribble + -er名词后缀表人】
+        subscript【sub-向下 +-script-写 --下标】
         scripture【-script-写--文字，文章--经文 + -ure名词后缀，引申为经文，经典】
         scriptural【scripture + -al形容词后缀】
         scripturally【scriptural + -ly副词后缀】
         scriptwriter【-script-编写--writer 作者，编剧】
         rescript【re-反复 + -script-写--反复抄写--抄件--法令】
-        nondescript【non-否定 + de-下 + -script-写--无法描述】
-        misdescribe【mis-错误 + describe】
+        manuscript【-manu-手 +-script-写】
+        postscript【post-后 + -script-写--写在后面--附言】
+        typescript【合成词：type打字 】
+        superscript【super-在上 + script】
+核心词：scribble【-scrib(b)-写--草写 + -le动词或名词后缀 来自scribe写，-le表反复。引申词义为乱写，乱画】
+        scribbled【见上： + -ed过去式和过去分词】
+        scribbling【见上： + -ing动名词后缀】
+        scribbler【scribble + -er名词后缀表人】
 核心词：describe【de-向下 + -script-写--记述--描述 +-e动词后缀--写下来】
         descriptor【describe(-scrib- = -script-写) + -or名词后缀，表人】
         described【describe + -ed形容词后缀，表被动】
         describer【见上：-er名词后缀，表人】
+        nondescript【non-否定 + de-下 + -script-写--无法描述】
+        misdescribe【mis-错误 + describe】
 核心词：description【descript + -ion名词后缀】
         descriptive【见上：-ive形容词后缀】
         descriptively【见上： -ly名词后缀】
@@ -590,7 +594,6 @@
         indescribably【见上： +-ly名词后缀】
         scripting【见上：-ing】
         redescription【re-反复--强调 + description】
-        subscription-based【合成词】
         self-described【合成词】
         self-description【合成词】
 核心词：prescribe【pre-在前，早于，预先 + -scrib-写--商定建立好的规则 + -e动词后缀】
@@ -600,10 +603,10 @@
         prescription-only【合成词】
         prescription-drug【合成词】
         prescriptive【prescript + -ive形容词后缀】
-        manuscript【-manu-手 +-script-写】
 核心词：subscribe【sub-向下 + -scrib-写--签署 + -e动词后缀】
         subscriber【见上：-er名词后缀，表人】
         subscription【subscript + -ion名词后缀】
+        subscription-based【合成词】
 核心词：transcribe【trans-改变，通过 + -scrib-写--转录 + -e动词后缀】
         transcribed【见上：-ed过去式和过去分词】
         transcriber【见上：-er名词后缀，表物】
@@ -629,9 +632,6 @@
 核心词：proscribe【pro-在前，提前 + -scrib-写--提前约定--规定--禁止 + -e动词后缀】
         proscribed【同上：-ed形容词后缀】
         proscription【同上：-ion名词后缀】
-        postscript【post-后 + -script-写--写在后面--附言】
-        typescript【合成词：type打字 】
-        superscript【super-在上 + script】
 
 9-techn(o)-技术，艺术
 【词源】来自拉丁语technicus，也来自于希腊语tekhnikos 与艺术有关
@@ -1876,7 +1876,7 @@
         transparency【transparent + -ency 名词后缀】
         semi-transparent【semi-半 + transparent】
 核心词: primipara【-prim-=-prem-原始，第一 + -i- + -par-生--生产 + -a名词后缀，表人】
-        primiparity【见上：-ity名词互通】
+        primiparity【见上：-ity名词后缀】
         primiparous【见上：-ous形容词后缀】
 核心词: biparous【bi-二 + -par-生--生出来两个--双生 + -ous形容词后缀】
         multiparous【multi-多 + -par-生--多生--多产 + -ous形容词后缀】
@@ -1885,117 +1885,120 @@
 16.-mov-=-mob-=-mot-移动
 【词源】来自拉丁语-mot-,-mov-,-mob-生产
 【引申】动/移动/搬迁/迁移
-核心词：move【】
-        moving【】
-        unmoving【】
-        movingly【】
-        moved【】
-        unmoved【】
-        movement【】
-        mover【】
-        movable【】
-        unmovable【】
-        immovable【】
-        earthmover【】
-        countermove【】
-        move-in【】
-        slow-moving【】
-        fast-moving【】
-        quick-moving【】
-        earth-moving【】
-        remove【】
-        remover【】
-        removal【】
-        removed【】
-        removable【】
-        snow-removal【】
-        movie【】
-        moviegoer【】
-        movie-going【】
-        movie-theater【】
-        movie-like【】
-        b-movie【】
-        movie-making【】
-        moviemaker【】
-        action-movie【】
-        horror-movie【】
-        silent-movie【】
-        motive【】
-        motivic【】
-        motivate【】
-        motivated【】
-        motivator【】
-        motivation【】
-        motivational【】
-        self-motivated【】
-        ubmotivated【】
-        automotive【】
-        electro-motive【】
-        politically-motivated【】
-        promote【】
-        promoted【】
-        promotion【】
-        promotional【】
-        promoter【】
-        self-promotion【】
-        health-promoting【】
-        demote【】
-        demotion【】
-        locomote【】
-        locomotive【】
-        motion【】
-        motionless【】
-        motionlessly【】
-        motion-picture【】
-        slow-motion【】
-        full-motion【】
-        stop-motion【】
-        emote【】
-        emotion【】
-        emotional【】
-        unemotional【】
-        emotionless【】
-        emotive【】
-        emotivism【】
-        emotionally【】
-        emotionality【】
-        emotionalism【】
-        non-emotional【】
-        social-emotional【】
-        socioemotional【】
-        remote【】
-        remotely【】
-        remoteness【】
-        remote-control【】
-        remote-controlled【】
-        motor【】
-        motoring【】
-        motorist【】
-        motoric【】
-        motorized【】
-        non-motorized【】
-        motorbike【】
-        motorway【】
-        motormouth【】
-        motorcade【】
-        motorcar【】
-        motorcoach【】
-        motorsport【】
-        motorcycle【】
-        motorcyclist【】
-        motorcycling【】
-        motorboat【】
-        motorman【】
-        motor-driven【】
-        motor-vehicle【】
-        motorhome【】
-        servomotor【】
-        motel【】
-        motile【】
-        motility【】
-        mob【】
-        mobster【】
-        mobile【】
+核心词：move【-mov-动--移动，行进(越是熟词，引申的含义就越多) + -e动词或名词后缀】
+        moving【move + -ing形容词后缀，令...的】
+        unmoving【un-否定 + moving】
+        movingly【moving + -ly副词后缀】
+        moved【move + -ed形容词后缀，表...的】
+        unmoved【un-否定 + moved】
+        movement【move + -ment名词后缀】
+        mover【move + -er名词后缀，表人或物】
+        movable【move + -able形容词后缀，表能...的】
+        unmovable【un-否定 + movable】
+        immovable【im-否定 + movable】
+        earthmover【earth 土，土地 + mover--移动土的--推土机】
+        countermove【counter-反 + move动--反着动--反动--反抗】
+        move-in【合成词】
+        slow-moving【合成词】
+        fast-moving【合成词】
+        quick-moving【合成词】
+        earth-moving【合成词】
+        remove【re-反复 + move动--反复移动--迁移】
+        remover【remove + -er名词后缀，表人】
+        removal【remove + -al名词后缀】
+        removed【remove + -ed形容词后缀】
+        removable【remove+　-able形容词后缀，表能...的】
+        snow-removal【合成词】
+        movie【-mov-动--动态的图像--电影 + -i- + -e动词后缀】
+        moviegoer【movie + go + -er名词后缀，表人】
+        movie-going【合成词】
+        movie-theater【合成词】
+        movie-like【合成词】
+        b-movie【好莱坞将B级电影定为烂片】
+        movie-making【合成词】
+        moviemaker【合成词】
+        action-movie【合成词】
+        horror-movie【合成词】
+        silent-movie【合成词】
+核心词：motive【-mot-动--动机(心理上) + -ive名词后缀】
+        motivic【motive + -ic形容词后缀】
+        motivate【motive + -ate动词后缀】
+        motivated【motivate + -ed形容词后缀】
+        motivator【motivate + -or名词后缀】
+        motivation【motivate + -ion名词后缀】
+        motivational【motivation + -al形容词后缀】
+        self-motivated【self-自己 + motivate】
+        unmotivated【un-否定 + motivated】
+        automotive【auto-自己 + -mot-动--自己动--自动 + -ive形容词后缀】
+        electro-motive【-electro-电 + motive】
+        politically-motivated【合成词】
+核心词：promote【pro-向前（强调过程） + -mot-动--向前动--提升促进 + -e动词后缀
+                pre-在前（强调位置）】
+        promoted【promote + -ed形容词后缀】
+        promotion【promote + -ion名词后缀】
+        promotional【promotion + -al形容词后缀】
+        promoter【promote + -er名词后缀，表人或物】
+        self-promotion【self-自己 + promotion】
+        health-promoting【合成词】
+核心词：demote【de-向下 + -mot-动--向下动--降级 + -e动词后缀】
+        demotion【demote + -ion名词后缀】
+        demotic【de-下 + -mot-动--牵引的下层--普通大人，底层人民--通俗 + -ic形容词后缀】
+核心词：locomote【-loc-地方 + -o- + -mot-动--可以移动的地方--移动 + -e动词后缀】
+        locomotive【locomote + -ive形容词或名词后缀，此处的火车头指的是一列火车可以牵引移动的那个部分】
+        locomotion【locomote + -ion名词后后缀】
+核心词：motion【mot-动--动作 + -ion名词后缀,名词动词化】
+        motionless【motion + -less形容词后缀，表否定】
+        motionlessly【motionless + -ly副词后缀】
+        motion-picture【合成词】
+        slow-motion【合成词】
+        full-motion【合成词】
+        stop-motion【合成词】
+核心词：emote【e-向外 + -mot-动--向外动--夸张动--挤眉弄眼--夸张 + -e动词后缀】
+        emotion【emote + -ion名词后缀】
+        emotional【emotion + -al形容词后缀 EQ=emotional quotient 情绪商数】
+        unemotional【un-否定 + emotional】
+        emotionless【emotion + -less形容词后缀，否定】
+        emotive【emote + -ive形容词后缀】
+        emotivism【emotive + -ism名词后缀】
+        emotionally【emotional + -ly副词后缀】
+        emotionality【emotional + -ity名词后缀】
+        emotionalism【emotional + -ism名词后缀】
+        non-emotional【non-否定 + emotional】
+        social-emotional【合成词】
+        socioemotional【-soci陪伴--社会 + -o- + emotional】
+核心词：remote【re-反复 + -mot-动--迁移--移动到远方--遥远 + -e偶尔表形容词】
+        remotely【remote + -ly副词后缀】
+        remoteness【remote + -ness名词后缀】
+        remote-control【合成词】
+        remote-controlled【合成词】
+核心词：motor【-mot-动--发动 + -or名词后缀，表物，中文中：摩托的由来】
+        motoring【motor + -ing动名词后缀】
+        motorist【motor + -ist名词后缀】
+        motoric【motor + -ic形容词后缀】
+        motorized【motorize + -ed形容词后缀】
+        non-motorized【non-否定 + motorized】
+        motorbike【motor + bike 加了发动机的自行车--摩托车】
+        motorway【合成词】
+        motormouth【比喻义：上了发动机的嘴--健谈】
+        motorcade【motor + -cad-盒子--移动的盒子-- + -e名词后缀】
+        motorcar【合成词】
+        motorcoach【合成词：coach】
+        motorsport【合成词】
+        motorcycle【合成词：motor + -cycl-圆--轮子--自动轮子--摩托车 + -e名词后缀】
+        motorcyclist【见上：-ist名词后缀，表人】
+        motorcycling【见上：-ing动名词后缀】
+        motorboat【合成词】
+        motorman【合成词】
+        motor-driven【合成词】
+        motor-vehicle【合成词】
+        motorhome【合成词】
+        servomotor【-serv-服务 + -o- + motor】
+核心词：motel【motor + hotel = motel】
+        motile【-mot-动 = -ile = -ible，表能...的】
+        motility【见上：-ity名词后缀】
+核心词：mob【-mob-动--暴动--暴民--乌合之众】
+        mobster【-mob-动--暴动 + -ster名词后缀，表人】
+核心词：mobile【-mob-动 + -ile形容词后缀，可移动的 + 由于-e结尾，在发展阶段可能会有名词的拓展】
         mobility【】
         mobilize【】
         mobilized【】
