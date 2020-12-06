@@ -312,14 +312,16 @@ public class SortTest {
     //insert
     public static void insert(int[] a) {
         int length = a.length;
-        for (int i = 1; i < length; i++) {
-            int insertNum = a[i];
+        for (int i = 1; i< length; i++){
+            int insert = a[i];
             int j = i - 1;
-            for (; j >= 0 && a[j] > insertNum; j--) {
-                a[j + 1] = a[j];
+            for (; j>=0 && a[j]>insert; j--) {
+                a[j + 1] =a[j];
             }
-            a[j + 1] = insertNum;
+            a[j + 1] = insert;
         }
+
+
 
 //        int length = a.length;
 //        for (int i = 1; i < length; i++) {
