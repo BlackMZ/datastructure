@@ -1,11 +1,15 @@
 package com.ma.leetcode.array;
 
+import com.sun.javafx.iio.common.SmoothMinifier;
 import com.sun.javafx.image.IntPixelGetter;
 import javafx.geometry.Pos;
 import jdk.nashorn.internal.ir.WhileNode;
 
 import javax.management.relation.Role;
+import javax.naming.ldap.LdapName;
+import javax.sound.midi.Soundbank;
 import java.nio.file.attribute.PosixFileAttributes;
+import java.sql.SQLOutput;
 import java.util.*;
 
 /**
@@ -684,7 +688,7 @@ public class ArrayAlgorithm {
     public static boolean containsNearbyDuplicate(int[] nums, int k) {
         int length = nums.length;
         for (int i = 0; i < length; i++) {
-            for (int j = i + 1; j <length; j++) {
+            for (int j = i + 1; j < length; j++) {
                 if (nums[j] == nums[i] && j - i <= k) {
                     return true;
                 }
@@ -707,6 +711,432 @@ public class ArrayAlgorithm {
         return false;
     }
 
+    /**
+     * You are given a sorted unique integer array nums.
+     * <p>
+     * Return the smallest sorted list of ranges that cover all the numbers in the array exactly.
+     * That is, each element of nums is covered by exactly one of the ranges,
+     * and there is no integer x such that x is in one of the ranges but not in nums.
+     * <p>
+     * one hour
+     *
+     * @param nums
+     * @return
+     */
+    public static List<String> summaryRanges(int[] nums) {
+        int length = nums.length;
+        if (length == 0) return new ArrayList<>();
+        List<String> result = new ArrayList<>();
+        int i = 0, j = 1;
+        int startRange;
+        int endRange = nums[i];
+        while (i < length && j <= length) {
+            startRange = nums[i];
+            if (j == length) {
+                if (startRange == endRange) {
+                    result.add(nums[--j] + "");
+                } else {
+                    result.add(startRange + "->" + endRange);
+                }
+                break;
+            }
+            if (nums[j] - endRange == 1) {
+                endRange = nums[j];
+                //j++;
+            } else {
+                if (startRange == endRange) {
+                    result.add(startRange + "");
+                    //endRange = nums[j];
+                    i++;
+                    //j++;
+                } else {
+                    result.add(startRange + "->" + endRange);
+                    //endRange = nums[j];
+                    i = j;
+                    //j++;
+                }
+                endRange = nums[j];
+            }
+            j++;
+        }
+        return result;
+    }
+
+    public static List<String> summaryRangesTwo(int[] nums) {
+        List<String> result = new ArrayList<>();
+        for (int i, j = 0; j < nums.length; ++j) {
+            i = j;
+            while (j + 1 < nums.length && nums[j + 1] == nums[j] + 1) {
+                ++j;
+            }
+            if (i == j) {
+                result.add(nums[i] + "");
+            } else {
+                result.add(nums[i] + "->" + nums[j]);
+            }
+        }
+        return result;
+    }
+
+    /**
+     * Given an array nums containing n distinct numbers in the range [0, n],
+     * return the only number in the range that is missing from the array.
+     * Follow up: Could you implement a solution using only O(1) extra space complexity and O(n) runtime complexity?
+     *
+     * @param nums
+     * @return
+     */
+    public static int missingNumber(int[] nums) {
+        int length = nums.length;
+        int missingNumber = 0;
+        Arrays.sort(nums);
+        if (nums[0] != 0) return missingNumber;
+        for (int i = 0; i < length; i++) {
+            int addOne = nums[i] + 1;
+            if (i + 1 < length && addOne != nums[i + 1]) {
+                missingNumber = nums[i] + 1;
+                return missingNumber;
+            }
+        }
+        return length;
+    }
+
+    /**
+     * Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+     *
+     * @param nums
+     */
+    public static void moveZeroes(int[] nums) {
+        int length = nums.length;
+        int border = length - 1;
+        int lastChange = 0;
+        for (int i = 0; i < length; i++) {
+            boolean isSorted = true;
+            for (int j = 0; j < border; j++) {
+                if (nums[j] == 0 && nums[j + 1] != 0) {
+                    int temp = nums[j];
+                    nums[j] = nums[j + 1];
+                    nums[j + 1] = temp;
+                    isSorted = false;
+                    lastChange = j;
+                }
+            }
+            border = lastChange;
+            if (isSorted) break;
+        }
+    }
+
+    /**
+     * Given a non-empty array of integers, return the third maximum number in this array.
+     * If it does not exist, return the maximum number. The time complexity must be in O(n).
+     *
+     * @param nums
+     * @return
+     */
+    public static int thirdMax(int[] nums) {
+        int length = nums.length;
+//        if (length == 1) {
+//            return nums[0];
+//        } else if (length == 2) {
+//            return Math.max(nums[0], nums[1]);
+//        } else {
+//
+//        }
+        int count = 0;
+        int third = 0;
+        Arrays.sort(nums);
+        for (int i = length - 1; i >= 0; i--) {
+            if (i - 1 >= 0 && nums[i - 1] < nums[i]) {
+                count++;
+                third = i - 1;
+            }
+            if (count == 2) {
+                return nums[third];
+            }
+        }
+        return nums[length - 1];
+    }
+
+
+    /**
+     * Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array),
+     * some elements appear twice and others appear once.
+     * Find all the elements of [1, n] inclusive that do not appear in this array.
+     * <p>
+     * Could you do it without extra space and in O(n) runtime?
+     * You may assume the returned list does not count as extra space.
+     *
+     * @param nums
+     * @return
+     */
+    public static List<Integer> findDisappearedNumbers(int[] nums) {
+        int length = nums.length;
+        //[4,3,2,7,8,2,3,1]
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < length; i++) {
+            map.put(nums[i], i);
+        }
+        List<Integer> result = new ArrayList<>();
+        for (int i = 1; i <= length; i++) {
+            if (!map.containsKey(i)) {
+                result.add(i);
+            }
+        }
+
+        return result;
+    }
+
+    /**
+     * Given a binary array, find the maximum number of consecutive 1s in this array.
+     *
+     * @param nums
+     * @return
+     */
+    public static int findMaxConsecutiveOnes(int[] nums) {
+        int length = nums.length;
+        int oneNum = 0;
+        int max = 0;
+        for (int i = 0; i < length; i++) {
+            if (nums[i] == 1) {
+                oneNum++;
+            }
+            if (nums[i] == 0) {
+                if (oneNum > max) {
+                    max = oneNum;
+                }
+                oneNum = 0;
+            }
+        }
+        return Math.max(oneNum, max);
+        //return max;
+    }
+
+    /**
+     * The Fibonacci numbers, commonly denoted F(n) form a sequence,
+     * called the Fibonacci sequence, such that each number is the sum of the two preceding ones,
+     * starting from 0 and 1. That is,
+     * F(0) = 0, F(1) = 1
+     * F(n) = F(n - 1) + F(n - 2), for n > 1.
+     * Given n, calculate F(n).
+     *
+     * @param n
+     * @return
+     */
+    public static int fib(int n) {
+        if (n <= 1) return n;
+        int[] fib = new int[n + 1];
+        fib[0] = 0;
+        fib[1] = 1;
+        for (int i = 2; i <= n; i++) {
+            fib[i] = fib[i - 1] + fib[i - 2];
+        }
+        return fib[n];
+    }
+
+    /**
+     * Given an integer array nums of 2n integers,
+     * group these integers into n pairs (a1, b1), (a2, b2), ..., (an, bn)
+     * such that the sum of min(ai, bi) for all i is maximized.
+     * Return the maximized sum.
+     *
+     * @param nums
+     * @return
+     */
+    public static int arrayPairSum(int[] nums) {
+        int length = nums.length;
+        Arrays.sort(nums);
+        int max = 0;
+        for (int i = 0; i < length; i += 2) {
+            max += nums[i];
+        }
+        return max;
+    }
+
+    /**
+     * In MATLAB, there is a very useful function called 'reshape',
+     * which can reshape a matrix into a new one with different size but keep its original data.
+     * You're given a matrix represented by a two-dimensional array,
+     * and two positive integers r and c representing the row number and column number of the wanted reshaped matrix, respectively.
+     * The reshaped matrix need to be filled with all the elements of the original matrix in the same row-traversing order as they were.
+     * If the 'reshape' operation with given parameters is possible and legal, output the new reshaped matrix;
+     * Otherwise, output the original matrix.
+     *
+     * @param nums
+     * @param r
+     * @param c
+     * @return
+     */
+    public static int[][] matrixReshape(int[][] nums, int r, int c) {
+        int[][] result = new int[r][c];
+        if (nums.length == 0 || r * c != nums.length * nums[0].length) {
+            return nums;
+        }
+        List<Integer> linkedList = new LinkedList<>();
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums[0].length; j++) {
+                linkedList.add(nums[i][j]);
+            }
+        }
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                result[i][j] = linkedList.get(0);
+                linkedList.remove(0);
+            }
+        }
+        return result;
+    }
+
+    /**
+     * You have a long flowerbed in which some of the plots are planted,
+     * and some are not. However, flowers cannot be planted in adjacent plots.
+     * <p>
+     * Given an integer array flowerbed containing 0's and 1's, where 0 means empty and 1 means not empty, 
+     * and an integer n, return if n new flowers can be planted in the flowerbed without violating the no-adjacent-flowers rule.
+     *
+     * @param flowerbed
+     * @param n
+     * @return
+     */
+    public static boolean canPlaceFlowers(int[] flowerbed, int n) {
+        int length = flowerbed.length;
+        //[1,0,0,1]
+        int plantNum = 0;
+        for (int i = 0; i < length; i++) {
+            if (length <= 1) {
+                if (flowerbed[0] == 0) {
+                    plantNum++;
+                }
+            } else if (i == 0) {
+                if (flowerbed[i] == 0 && flowerbed[i + 1] == 0) {
+                    plantNum++;
+                    flowerbed[i] = 1;
+                }
+            } else if (i == length - 1) {
+                if (flowerbed[i] == 0 && flowerbed[i - 1] == 0) {
+                    plantNum++;
+                    flowerbed[i] = 1;
+                }
+            } else {
+                if (flowerbed[i] == 0 && flowerbed[i - 1] == 0 && flowerbed[i + 1] == 0) {
+                    flowerbed[i] = 1;
+                    plantNum++;
+                }
+            }
+        }
+        return plantNum >= n;
+    }
+
+    public boolean canPlaceFlowersTwo(int[] flowerbed, int n) {
+        int i = 0, count = 0;
+        while (i < flowerbed.length) {
+            if (flowerbed[i] == 0 && (i == 0 || flowerbed[i - 1] == 0) && (i == flowerbed.length - 1 || flowerbed[i + 1] == 0)) {
+                flowerbed[i] = 1;
+                count++;
+            }
+            i++;
+        }
+        return count >= n;
+    }
+
+    /**
+     * Given an integer array nums,
+     * find three numbers whose product is maximum and return the maximum product.
+     *
+     * @param nums
+     * @return
+     */
+    public static int maximumProduct(int[] nums) {
+        int length = nums.length;
+        Arrays.sort(nums);
+        int first = nums[length - 1];
+        int second = nums[length - 2];
+        int third = nums[length - 3];
+        return Math.max(nums[0] * nums[1] * first, first * second * third);
+    }
+
+    /**
+     * Given an array consisting of n integers,
+     * find the contiguous subarray of given length k that has the maximum average value.
+     * And you need to output the maximum average value.
+     *
+     * @param nums
+     * @param k
+     * @return
+     */
+    public static double findMaxAverage(int[] nums, int k) {
+        int length = nums.length;
+        double sum = 0;
+        for (int i = 0; i < k; i++) {
+            sum += nums[i];
+        }
+        double result = sum;
+        for (int i = k; i < length; i++) {
+            sum = sum + nums[i] - nums[i - k];
+            result = Math.max(result, sum);
+        }
+        return result / k;
+
+
+//        double maximumAverage = -100001;
+//        for (int i = 0; i < length; i++) {
+//            int sum = nums[i];
+//            if (i + k <= length) {
+//                for (int j = i + 1; j < i + k; j++) {
+//                    sum += nums[j];
+//                }
+//                double s = (double) sum / k;
+//                if (s > maximumAverage) {
+//                    maximumAverage = s;
+//                    System.out.println(sum + " " + k + " " + s);
+//                }
+//            }
+//        }
+//        return maximumAverage;
+    }
+
+    /**
+     * Given a 2D integer matrix M representing the gray scale of an image,
+     * you need to design a smoother to make the gray scale of each cell
+     * becomes the average gray scale (rounding down) of all the 8 surrounding cells and itself.
+     * If a cell has less than 8 surrounding cells, then use as many as you can.
+     *
+     * @param
+     * @return
+     */
+    public static int[][] imageSmoother(int[][] M) {
+        int row = M.length, column = M[0].length;
+        int[][] result = new int[row][column];
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < column; j++) {
+                int count = 0;
+                for (int k = i - 1; k <= i + 1 ; k++) {
+                    for (int l = j - 1; l <= j + 1 ; l++) {
+                        if (0<=k && k < row && 0 <= l && l< column) {
+                            result[i][j]+=M[k][l];
+                            count++;
+                        }
+                    }
+                }
+                result[i][j]/= count;
+            }
+        }
+        return result;
+//        int R = M.length, C = M[0].length;
+//        int[][] ans = new int[R][C];
+//        for (int r = 0; r < R; ++r)
+//            for (int c = 0; c < C; ++c) {
+//                int count = 0;
+//                for (int nr = r - 1; nr <= r + 1; ++nr)
+//                    for (int nc = c - 1; nc <= c + 1; ++nc) {
+//                        if (0 <= nr && nr < R && 0 <= nc && nc < C) {
+//                            ans[r][c] += M[nr][nc];
+//                            count++;
+//                        }
+//                    }
+//                ans[r][c] /= count;
+//            }
+//        return ans;
+    }
 
     public static void main(String[] args) {
         int[] sorted = new int[]{2, 3, 4, 5};
@@ -715,12 +1145,37 @@ public class ArrayAlgorithm {
         System.out.println(Arrays.toString(sorted));
         int[] array = new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4};
         int i = maxSubArray(array);
-        System.out.println(i);
+        //System.out.println(i);
+        int[][] nums = new int[][]{{1, 2}, {3, 4}, {6, 7}};
+        int[][] ints = matrixReshape(nums, 2, 3);
+        for (int j = 0; j < 2; j++) {
+            for (int k = 0; k < 3; k++) {
+                System.out.print(ints[j][k] + " ");
+            }
+            System.out.println();
+        }
 
-
-        int[] nums = new int[]{1,0,1,1};
-        boolean b = containsNearbyDuplicateWithOneLoop(nums, 1);
+        int[] s = new int[]{-1};
+        double b = findMaxAverage(s, 1);
         System.out.println(b);
 
+        List<String> cate = new ArrayList<>();
+        getCategory(15, cate);
+//        System.out.println(category);
+        cate.forEach(System.out::println);
+
+        int[][] image = new int[][]{{1,1,1},{1,0,1},{1,1,1}};
+        int[][] smoother = imageSmoother(image);
+        System.out.println(smoother);
+
+    }
+
+    public static void getCategory(int supCategory, List<String> cate) {
+        if (supCategory == 0) {
+            return;
+        }
+        String s = "不是" + Math.random();
+        cate.add(s);
+        getCategory(supCategory - 5, cate);
     }
 }
