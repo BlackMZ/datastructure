@@ -4,6 +4,7 @@ import com.sun.javafx.iio.common.SmoothMinifier;
 import com.sun.javafx.image.IntPixelGetter;
 import javafx.geometry.Pos;
 import jdk.nashorn.internal.ir.WhileNode;
+import org.omg.CORBA.Current;
 
 import javax.management.relation.Role;
 import javax.naming.ldap.LdapName;
@@ -1109,15 +1110,15 @@ public class ArrayAlgorithm {
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < column; j++) {
                 int count = 0;
-                for (int k = i - 1; k <= i + 1 ; k++) {
-                    for (int l = j - 1; l <= j + 1 ; l++) {
-                        if (0<=k && k < row && 0 <= l && l< column) {
-                            result[i][j]+=M[k][l];
+                for (int k = i - 1; k <= i + 1; k++) {
+                    for (int l = j - 1; l <= j + 1; l++) {
+                        if (0 <= k && k < row && 0 <= l && l < column) {
+                            result[i][j] += M[k][l];
                             count++;
                         }
                     }
                 }
-                result[i][j]/= count;
+                result[i][j] /= count;
             }
         }
         return result;
@@ -1136,6 +1137,202 @@ public class ArrayAlgorithm {
 //                ans[r][c] /= count;
 //            }
 //        return ans;
+    }
+
+    /**
+     * Given an array nums with n integers,
+     * your task is to check if it could become non-decreasing by modifying at most 1 element.
+     *
+     * @param nums 0 1 2 5 4
+     * @return
+     */
+    public static boolean checkPossibility(int[] nums) {
+        int length = nums.length;
+        int count = 0;
+        for (int i = 0; i < length - 1; i++) {
+            if (nums[i] > nums[i + 1]) {
+                if (i - 1 >= 0 && nums[i + 1] < nums[i - 1]) {
+                    if (i + 2 <= length - 1 && nums[i + 2] < nums[i]) {
+                        return false;
+                    }
+                }
+                count++;
+            }
+        }
+        return count <= 1;
+    }
+
+    /**
+     * Given an unsorted array of integers nums,
+     * return the length of the longest continuous increasing subsequence (i.e. subarray).
+     * The subsequence must be strictly increasing.
+     * <p>
+     * A continuous increasing subsequence is defined by two indices
+     * l and r (l < r) such that it is [nums[l], nums[l + 1], ..., nums[r - 1], nums[r]] and for each l <= i < r, nums[i] < nums[i + 1].
+     *
+     * @param nums
+     * @return
+     */
+    public static int findLengthOfLCIS(int[] nums) {
+        int length = nums.length;
+        if (length == 0) return 0;
+        int i = 0, j = 1;
+        int max = 1;
+        int count = 1;
+        while (i <= length - 1 && j <= length - 1) {
+            if (nums[i] < nums[j]) {
+                i++;
+                //++j;
+                count++;
+            } else {
+                i = j;
+                //j++;
+                count = 1;
+            }
+            j++;
+            max = Math.max(max, count);
+        }
+        return max;
+    }
+
+    /**
+     * Given a non-empty array of non-negative integers nums,
+     * the degree of this array is defined as the maximum frequency of any one of its elements.
+     * Your task is to find the smallest possible length of a (contiguous) subarray of nums, that has the same degree as nums.
+     *
+     * @param nums 1,2,2,3,1     1,2,2,3,1,4,2   1,2,3,4,5,6,6
+     * @return
+     */
+    public static int findShortestSubArray(int[] nums) {
+        int length = nums.length;
+        Map<Integer, Integer> degree = new HashMap<>();
+        for (int value : nums) {
+            if (degree.containsKey(value)) {
+                Integer count = degree.get(value);
+                degree.put(value, ++count);
+            } else {
+                degree.put(value, 1);
+            }
+        }
+        int maxDegree = 0;
+        for (Integer key : degree.keySet()) {
+            if (degree.get(key) > maxDegree) {
+                maxDegree = degree.get(key);
+            }
+        }
+        int small = Integer.MAX_VALUE;
+        List<Integer> num = new ArrayList<>();
+        for (Integer key : degree.keySet()) {
+            if (degree.get(key) == maxDegree) {
+                num.add(key);
+                List<Integer> index = new ArrayList<>();
+                for (int j = 0; j < length; j++) {
+                    if (key == nums[j]) {
+                        index.add(j);
+                    }
+                }
+                int cur = index.get(index.size() - 1) - index.get(0) + 1;
+                small = Math.min(small, cur);
+            }
+        }
+//        int small = Integer.MAX_VALUE;
+//        for (int i = 0; i < num.size(); i++) {
+//            List<Integer> index = new ArrayList<>();
+//            for (int j = 0; j < length; j++) {
+//                if (num.get(i) == nums[j]) {
+//                    index.add(j);
+//                }
+//            }
+//            int cur = index.get(index.size() - 1) - index.get(0) + 1;
+//            small = Math.min(small, cur);
+//        }
+
+        return small;
+    }
+
+    /**
+     * We have two special characters. The first character can be represented by one bit 0.
+     * The second character can be represented by two bits (10 or 11).
+     * <p>
+     * Now given a string represented by several bits.
+     * Return whether the last character must be a one-bit character or not.
+     * The given string will always end with a zero.
+     *
+     * @param bits 0,1,0,0  1,1,1,0  1,1,1,1,0  1,0,1,0  1,1,0,0    1,1,1,1,1,1,0
+     * @return
+     */
+    public static boolean isOneBitCharacter(int[] bits) {
+        boolean result = false;
+        int length = bits.length;
+        int index = length - 1;
+        int i = 0;
+        while (i < length) {
+            if (bits[i] == 1) {
+                i = i + 2;
+                if (i > index) {
+                    return result;
+                }
+            } else {
+                if (++i >= index) {
+                    result = true;
+                    break;
+                }
+            }
+
+        }
+        return result;
+
+//        int i = 0;
+//        while (i < bits.length - 1) {
+//            i += bits[i] + 1;
+//        }
+//        return i == bits.length - 1;
+//    }
+
+    }
+
+    /**
+     * Given an array of integers nums, calculate the pivot index of this array.
+     *
+     * The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right.
+     *
+     * If the index is on the left edge of the array,
+     * then the left sum is 0 because there are no elements to the left. This also applies to the right edge of the array.
+     *
+     * Return the leftmost pivot index. If no such index exists, return -1.
+     * @param nums 1,7,3,6,5,6
+     * @return
+     */
+    public static int pivotIndex(int[] nums) {
+        int length = nums.length;
+        for (int i = 0; i < length; i++) {
+            int leftSum = 0;
+            int rightSum = 0;
+            for (int j = 0; j < i; j++) {
+                leftSum += nums[j];
+            }
+            for (int j = i + 1; j < length; j++) {
+                rightSum += nums[j];
+            }
+            if (leftSum == rightSum){
+                return i;
+            }
+        }
+        return -1;
+    }
+    public static int pivotIndexTwo(int[] nums) {
+        int length = nums.length;
+        int totalSum = 0;
+        for (int i = 0; i < length; i++) {
+            totalSum += nums[i];
+        }
+        int curSum = 0;
+        for (int i = 0; i < length; i++) {
+            int rightSum = totalSum - nums[i] - curSum;
+            if (rightSum == curSum) return i;
+            curSum += nums[i];
+        }
+        return -1;
     }
 
     public static void main(String[] args) {
@@ -1159,17 +1356,42 @@ public class ArrayAlgorithm {
         double b = findMaxAverage(s, 1);
         System.out.println(b);
 
-        List<String> cate = new ArrayList<>();
-        getCategory(15, cate);
-//        System.out.println(category);
-        cate.forEach(System.out::println);
+//        int[][] image = new int[][]{{1,1,1},{1,0,1},{1,1,1}};
+//        int[][] smoother = imageSmoother(image);
+//        System.out.println(smoother);
+        //4,2,3  4,3,2    3,4,2,3  4,6,5,6  4,5,6,4,8
+        int[] check = new int[]{0, 1, -1, 1};
+        boolean b1 = checkPossibility(check);
+        System.out.println(b1);
+        //0  0,1  1,0  1,3,4,3,6,7,8,9,10  1,3,5,4,7
+        int[] increase = new int[]{-1, 1, 2, 2, 3, 0, 3, 4};
+        int lengthOfLCIS = findLengthOfLCIS(increase);
+        System.out.println(lengthOfLCIS);
 
-        int[][] image = new int[][]{{1,1,1},{1,0,1},{1,1,1}};
-        int[][] smoother = imageSmoother(image);
-        System.out.println(smoother);
+        int[] findShortestSubArray = new int[]{0, 1};
+        int shortestSubArray = findShortestSubArray(findShortestSubArray);
+        System.out.println(shortestSubArray);
+
+        //0,1,0,0  1,1,1,0  1,1,1,1,0  1,0,1,0  1,1,0,0    1,1,1,1,1,1,0
+        int[] isOneBitCharacter = new int[]{0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0};
+        boolean oneBitCharacter = isOneBitCharacter(isOneBitCharacter);
+        System.out.println(oneBitCharacter);
+
+        int[] privot = new int[]{2,1,-1};
+        int index = pivotIndexTwo(privot);
+        System.out.println(index);
 
     }
 
+    /**递归
+     * List<String> cate = new ArrayList<>();
+     * getCategory(15, cate);
+     * //        System.out.println(category);
+     * cate.forEach(System.out::println);
+     *
+     * @param supCategory
+     * @param cate
+     */
     public static void getCategory(int supCategory, List<String> cate) {
         if (supCategory == 0) {
             return;
