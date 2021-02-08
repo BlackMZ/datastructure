@@ -86,6 +86,8 @@ public class RecursionAlgorithm {
         if (l2 == null) temp.next = l1;
         return head.next;
     }
+
+
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
         ListNode l2 = new ListNode(3);
