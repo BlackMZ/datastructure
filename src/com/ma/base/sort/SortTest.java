@@ -1,6 +1,8 @@
 package com.ma.base.sort;
 
 
+import com.sun.org.apache.xml.internal.serializer.ToSAXHandler;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -200,7 +202,6 @@ public class SortTest {
 //        a[i] = key;
 //        b(a, start, i - 1);
 //        b(a, i + 1, end);
-
     }
 
     public static void quickSortTwo(int[] a, int start, int end) {
@@ -532,8 +533,7 @@ public class SortTest {
 //        int[] temp = new int[a.length];//辅助数组
 //        int p1 = start, p2 = mid + 1, k = start;
 //        System.out.println("p1=" + p1 + " p2=" + p2 + " k=" + k);
-//        while (p1 <= mid && p2 <= end) {
-//            if (a[p1] <= a[p2]) {
+//        while (p1 <= mid && p2 <= end) {//            if (a[p1] <= a[p2]) {
 //                temp[k] = a[p1];
 //                k++;
 //                p1++;
